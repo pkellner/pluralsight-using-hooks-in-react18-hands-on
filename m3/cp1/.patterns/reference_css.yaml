@@ -1,0 +1,7 @@
+rules:
+  - id: reference_css
+    pattern: |
+      <link rel="stylesheet" href="/bootstrap.css" />
+    message: <pass>
+    languages: [js]
+    severity: INFO

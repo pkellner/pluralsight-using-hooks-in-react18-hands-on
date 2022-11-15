@@ -1,0 +1,9 @@
+rules:
+  - id: reference_css
+    pattern: |
+      <div className="container">
+        <Main />
+      </div>
+    message: <pass>
+    languages: [js]
+    severity: INFO
