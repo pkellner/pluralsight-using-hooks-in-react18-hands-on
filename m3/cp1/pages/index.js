@@ -6,7 +6,7 @@ export default function App() {
   const [helloMessage, setHelloMessage] =
     useState("Hello From Pluralsight");
   
-  useEffect(() => setHelloMessage(`${helloMessage} on ${new Date()}`),[]);
+  useEffect(() => setHelloMessage(`${helloMessage} ON ${new Date()}`),[]);
   
   return (
     <>
